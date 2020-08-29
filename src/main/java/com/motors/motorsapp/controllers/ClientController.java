@@ -56,4 +56,5 @@ public class ClientController {
     public String delete(Integer id){
         clientService.delete(id);
         return  "redirect:/client";
-    }}
+    }
+}
