@@ -1,9 +1,8 @@
 package com.motors.motorsapp.controllers;
 
 import com.motors.motorsapp.models.Client;
-import com.motors.motorsapp.models.Country;
-import com.motors.motorsapp.models.State;
 import com.motors.motorsapp.services.ClientService;
+import com.motors.motorsapp.services.ContactService;
 import com.motors.motorsapp.services.CountryService;
 import com.motors.motorsapp.services.StateService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +10,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 import java.util.Optional;
 
 @Controller

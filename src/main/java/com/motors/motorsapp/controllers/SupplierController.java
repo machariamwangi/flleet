@@ -1,8 +1,6 @@
 package com.motors.motorsapp.controllers;
 
-import com.motors.motorsapp.models.Client;
 import com.motors.motorsapp.models.Supplier;
-import com.motors.motorsapp.services.ClientService;
 import com.motors.motorsapp.services.CountryService;
 import com.motors.motorsapp.services.StateService;
 import com.motors.motorsapp.services.SupplierService;
