@@ -14,7 +14,7 @@ $('document').ready(function (){
     $('table #detailsButton').on('click', function (){
        event.preventDefault();
        var href = $(this).attr('href');
-       $.get(href, function (state, status){
+       $.get(href, function (vehicleMake, status){
            $('#idDetails').val(vehicleMake.id);
            $('#descriptionDetails').val(vehicleMake.description);
            $('#detailsDetails').val(vehicleMake.details);

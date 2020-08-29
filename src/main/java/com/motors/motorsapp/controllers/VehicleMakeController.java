@@ -30,7 +30,7 @@ public class VehicleMakeController {
         return "redirect:/vehicleMake";
     }
 
-    @RequestMapping("/vehiclemake/findById")
+    @RequestMapping("/vehicleMake/findById")
     @ResponseBody
     public Optional<VehicleMake> findById(int id){
         return vehicleMakeService.findById(id);

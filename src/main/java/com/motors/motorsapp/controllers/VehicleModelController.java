@@ -17,7 +17,7 @@ public class VehicleModelController {
     @Autowired
     private VehicleModelService vehicleModelService;
 
-    @GetMapping("/vehicleModel")
+    @GetMapping("/vehiclemodel")
     public String getStates(Model model){
 
         List<VehicleModel> vehicleModelList = vehicleModelService.getVehicleModels();

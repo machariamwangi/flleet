@@ -4,7 +4,7 @@ $('document').ready(function (){
         //countries/findById/?id=...
         var href = $(this).attr('href');
 
-        $.get(href, function (state, status){
+        $.get(href, function (vehicleModel, status){
             $('#idEdit').val(vehicleModel.id);
             $('#descriptionEdit').val(vehicleModel.description);
             $('#detailsEdit').val(vehicleModel.details);
